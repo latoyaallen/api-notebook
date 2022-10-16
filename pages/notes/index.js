@@ -1,8 +1,8 @@
-function WhyNextJs() {
+function Notes() {
   return <h1>Why Next.js ?</h1>
 }
 
-export default WhyNextJs;
+export default Notes;
 
 /*
 
