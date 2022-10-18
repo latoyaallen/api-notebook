@@ -1,0 +1,16 @@
+import { useRouter } from 'next/router';
+
+function DetailPage() {
+  // gets access to the concrete data
+  // encoded in the url
+  // console.log(router.query.exampleID);
+  // will long nothing at first,
+  // but when the route loads it will log
+  // whatever is in the url after /examples
+  const router = useRouter();
+
+
+  return <h1>The Detail Page</h1>
+}
+
+export default DetailPage;
