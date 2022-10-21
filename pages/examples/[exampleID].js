@@ -1,7 +1,8 @@
 import { useRouter } from 'next/router';
 
 function DetailPage() {
-  // gets access to the concrete data
+  // we can extract dynamic paramater values
+  // which gives us access to the concrete data
   // encoded in the url
   // console.log(router.query.exampleID);
   // will long nothing at first,
